@@ -1,0 +1,127 @@
+body {
+  height: 2000px;
+  font: normal 12px Myriad Pro;
+  color: #333333;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 12px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 45px 0 18px;
+}
+
+.pages {
+  margin: 200px auto 0;
+  width: 559px;
+  position: relative;
+}
+
+.page-1 {width: 458px;
+  background-color: #ebebeb;
+  padding: 38px 30px;
+}
+
+.page-2 {
+  left: 19px;
+  top: 18px;
+  background-color: #ccc;
+}
+
+.page-1, .page-2, .page-3 {
+  border: 2px solid #000;
+  width: 522px;
+  position: absolute;
+  height: 748px;
+  box-sizing: border-box;
+}
+
+.page-3 {
+  background-color: #acacac;
+  left: 38px;
+  top: 37px;
+}
+
+.bookmark-1, .bookmark-2, .bookmark-3 {
+  position: absolute;
+  width:106px;
+  height: 31px;
+  border: 2px solid black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.bookmark-1 {
+  background-color: #f68e56;
+  top: 38px;
+  right: -45px;
+}
+
+.bookmark-2 {
+  background-color: #39b54a;
+  top: 58px;
+  right: -33px;
+}
+
+.bookmark-3 {
+  background-color: #00aeef;
+  top: 78px;
+  right: -20px;
+}
+
+p {
+  margin-top: 0;
+}
+
+.img-left {
+  margin: 0 23px 15px 0;
+  float: left;
+}
+.img-right {
+  margin: 0 0 15px 6px;
+  float: right;
+}
+
+.images:after {
+  content:"";
+  clear: both;
+  visibility: hidden;
+  display: block;
+  height: 0;
+}
+
+.small {
+  font-size: 9px;
+  text-align: center;
+  margin: 12px 0;
+}
+
+.social {
+  width: 87px;
+  position: fixed;
+  border: 1px solid #000;
+  top: 450px;
+  right: 0;
+  background-color: #fbaf5d;
+}
+
+.social p {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.icons {
+  padding: 5px 5px 10px;
+}
