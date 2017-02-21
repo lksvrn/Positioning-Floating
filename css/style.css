@@ -27,7 +27,15 @@ h2 {
   position: relative;
 }
 
-.page-1 {width: 458px;
+.page-1, .page-2, .page-3 {
+  border: 2px solid #000;
+  width: 522px;
+  position: absolute;
+  height: 748px;
+  box-sizing: border-box;
+}
+
+.page-1 {
   background-color: #ebebeb;
   padding: 38px 30px;
 }
@@ -36,14 +44,6 @@ h2 {
   left: 19px;
   top: 18px;
   background-color: #ccc;
-}
-
-.page-1, .page-2, .page-3 {
-  border: 2px solid #000;
-  width: 522px;
-  position: absolute;
-  height: 748px;
-  box-sizing: border-box;
 }
 
 .page-3 {
@@ -110,7 +110,7 @@ p {
   width: 87px;
   position: fixed;
   border: 1px solid #000;
-  top: 450px;
+  top: 75%;
   right: 0;
   background-color: #fbaf5d;
 }
