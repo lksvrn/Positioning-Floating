@@ -1,6 +1,17 @@
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
   height: 2000px;
-  font: normal 12px Myriad Pro;
+  font: normal 12px MyriadProRegular;
   color: #333333;
   line-height: 1.2;
   margin: 0;
@@ -27,7 +38,15 @@ h2 {
   position: relative;
 }
 
-.page-1 {width: 458px;
+.page-1, .page-2, .page-3 {
+  border: 2px solid #000;
+  width: 522px;
+  position: absolute;
+  height: 748px;
+  box-sizing: border-box;
+}
+
+.page-1 {
   background-color: #ebebeb;
   padding: 38px 30px;
 }
@@ -38,14 +57,6 @@ h2 {
   background-color: #ccc;
 }
 
-.page-1, .page-2, .page-3 {
-  border: 2px solid #000;
-  width: 522px;
-  position: absolute;
-  height: 748px;
-  box-sizing: border-box;
-}
-
 .page-3 {
   background-color: #acacac;
   left: 38px;
@@ -54,7 +65,7 @@ h2 {
 
 .bookmark-1, .bookmark-2, .bookmark-3 {
   position: absolute;
-  width:106px;
+  width: 106px;
   height: 31px;
   border: 2px solid black;
   border-top-right-radius: 10px;
@@ -110,7 +121,7 @@ p {
   width: 87px;
   position: fixed;
   border: 1px solid #000;
-  top: 450px;
+  top: 75%;
   right: 0;
   background-color: #fbaf5d;
 }
